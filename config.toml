@@ -1,0 +1,47 @@
+baseURL = 'https://gitcomeon8.github.io/'
+languageCode = 'en-us'
+title = 'Techno info dan pengguna linux'
+themesDir = 'themes'
+theme = 'hugo-PaperMod'
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Agungxp"
+    subtitle = "informasi teknologi dan pengguna linux"
+    owner = ""
+    keywords = ""
+    copyright = "Copyright © 2021, Agungxp"
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+
+    [languages.en.params.logo]
+     logoText = "Agung xp"
+     logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = 'blog'
+        name = 'Blog'
+        url = '/blog'
+      [[languages.en.menu.main]]
+        identifier = "github"
+        name = "Github"
+        url = "https://github.com/gitcomeon8"
+  [markup.goldmark.renderer]
+    unsafe = true
+  [params]
+    truncate = true
+    googleAnalytics = "UA-XXXXX-X"
+    rss = true
+
+    
